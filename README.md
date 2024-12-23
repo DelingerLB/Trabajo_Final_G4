@@ -8,3 +8,6 @@ PROYECTO: Plataforma digital para administrar los servicios del Centro Psicopeda
 ▪ Pasos para instalar y ejecutar el proyecto.
 
 ▪ INTEGRANTES
+| ID | Integrante | CODIGO | Rol |
+
+|--------------|--------------|--------------| 
