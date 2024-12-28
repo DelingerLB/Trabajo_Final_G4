@@ -22,6 +22,7 @@ Se propone desarrollar e implementar una plataforma digital integrada que centra
 - Abrir en VSC (usar VSC seleccionando la carpeta del proyecto
 - Abrir una terminal
 - Iniciar el entorno virtual con el comando: .\venv\Scripts\activate
+- ejecutar el siguiente comando: pip install requests
 - Abrir un nuevo terminal
 
 - En el segundo terminal, se debe activar el servidor local de 'roles_service'
