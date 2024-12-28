@@ -23,12 +23,17 @@ Se propone desarrollar e implementar una plataforma digital integrada que centra
 - Abrir una terminal
 - Iniciar el entorno virtual con el comando: .\venv\Scripts\activate
 - Abrir un nuevo terminal
+
 - En el segundo terminal, se debe activar el servidor local de 'roles_service'
-    USAR EL SIGUIENTE CÓDIGO: uvicorn roles_service.main:app --host 0.0.0.0 --port 8001 --reload
+    - USAR EL SIGUIENTE CÓDIGO:
+        - uvicorn roles_service.main:app --host 0.0.0.0 --port 8001 --reload
 - En el primer terminal, se debe activar el servidor local de 'user_service'
-    USAR EL SIGUIENTE CÓDIGO: uvicorn user_service.main:app --host 0.0.0.0 --port 8000 --reload
+    - USAR EL SIGUIENTE CÓDIGO:
+        - uvicorn user_service.main:app --host 0.0.0.0 --port 8000 --reload
 - Acabamos de activar el servicio en web
-    VISUALIZAR EL RESULTADO A TRAVÉS DEL ENLACE: 127.0.0.1:8000/user_interface/index.html
+    - VISUALIZAR EL RESULTADO A TRAVÉS DEL ENLACE:
+        - 127.0.0.1:8000/user_interface/index.html
+
 - Para desactivar los servidores remotos, USAR EL COMANDO CTRL + C en ambas terminales
   
 ## Integrantes del equipo y sus Roles
