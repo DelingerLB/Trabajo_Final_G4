@@ -10,7 +10,8 @@ Se propone desarrollar e implementar una plataforma digital integrada que centra
 ## Pasos para Instalar y Ejecutar el Proyecto
 
 ### Requisitos Previos
-- Lista de los requisitos previos necesarios para instalar el proyecto (por ejemplo, versiones de software, dependencias, etc.).
+- Contar con python v3.12
+- Editor de código fuente: VSC
 
 ### Instalación
 1. Paso 1: Instrucciones detalladas sobre cómo instalar el proyecto.
