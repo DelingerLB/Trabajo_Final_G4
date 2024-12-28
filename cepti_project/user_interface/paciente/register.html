@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Paciente y Apoderado</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Menú</h2>
+        <ul>
+            <li><a href="../index.html">Opción 1: Gestionar Usuarios</a></li>
+            <li><a href="../disponibilidad/calendario.html">Opción 2: Ver Disponibilidad de Terapeutas</a></li>
+        </ul>
+    </div>
+    <div class="main-content card">
+        <h1>Registrar Paciente y Apoderado</h1>
+        <form id="registerForm">
+            <h2>Datos del Paciente</h2>
+            <label for="nombrePaciente">Nombre:</label>
+            <input type="text" id="nombrePaciente" name="nombrePaciente" required>
+            <label for="apellidoPaciente">Apellido:</label>
+            <input type="text" id="apellidoPaciente" name="apellidoPaciente" required>
+            <label for="dniPaciente">DNI:</label>
+            <input type="text" id="dniPaciente" name="dniPaciente" required>
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            <h2>Datos del Apoderado</h2>
+            <label for="nombreApoderado">Nombre:</label>
+            <input type="text" id="nombreApoderado" name="nombreApoderado" required>
+            <label for="apellidoApoderado">Apellido:</label>
+            <input type="text" id="apellidoApoderado" name="apellidoApoderado" required>
+            <label for="dniApoderado">DNI:</label>
+            <input type="text" id="dniApoderado" name="dniApoderado" required>
+            <label for="telefonoApoderado">Teléfono:</label>
+            <input type="text" id="telefonoApoderado" name="telefonoApoderado" required>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+            <button type="submit" class="button-primary">Registrar</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>
