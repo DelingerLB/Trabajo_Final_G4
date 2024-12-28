@@ -14,14 +14,23 @@ Se propone desarrollar e implementar una plataforma digital integrada que centra
 - Editor de código fuente: VSC
 
 ### Instalación
-1. Paso 1: Instrucciones detalladas sobre cómo instalar el proyecto.
-2. Paso 2: Siguiente paso en la instalación.
-3. Paso 3: Cualquier otro paso necesario para completar la instalación.
+1. Paso 1: Descargar la carpeta (.zip) 'cepti_project' en algun directorio
+2. Paso 2: Descomprimir el contenido del archivo descargado
 
 ### Ejecución
-- Comando para iniciar el proyecto: `comando_ejecutar`
-- Cualquier otra instrucción relevante sobre cómo ejecutar el proyecto.
-
+- Ubicarse dentro de la carpeta cepti_project y abrir con VSC (./cepti_project/)
+- Abrir en VSC (usar VSC seleccionando la carpeta del proyecto
+- Abrir una terminal
+- Iniciar el entorno virtual con el comando: .\venv\Scripts\activate
+- Abrir un nuevo terminal
+- En el segundo terminal, se debe activar el servidor local de 'roles_service'
+    USAR EL SIGUIENTE CÓDIGO: uvicorn roles_service.main:app --host 0.0.0.0 --port 8001 --reload
+- En el primer terminal, se debe activar el servidor local de 'user_service'
+    USAR EL SIGUIENTE CÓDIGO: uvicorn user_service.main:app --host 0.0.0.0 --port 8000 --reload
+- Acabamos de activar el servicio en web
+    VISUALIZAR EL RESULTADO A TRAVÉS DEL ENLACE: 127.0.0.1:8000/user_interface/index.html
+- Para desactivar los servidores remotos, USAR EL COMANDO CTRL + C en ambas terminales
+  
 ## Integrantes del equipo y sus Roles
 
 | Nombre                        | Rol en el Proyecto           |
