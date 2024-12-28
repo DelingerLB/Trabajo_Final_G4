@@ -23,8 +23,7 @@ Se propone desarrollar e implementar una plataforma digital integrada que centra
 
 ## Integrantes del equipo y sus Roles
 
-| Nombre                        | Rol en el Proyecto      |
-|-------------------------------|-------------------------|
-| Cardenas Pilco Patricia       | Scrum Master            |
-| Leandro Barrientos Delinger   | Front-End Developer     |
-| Sosa Palacios Jhosep          | Back-End Developer      |
+| Nombre                        | Rol en el Proyecto           |
+|-------------------------------|------------------------------|
+| Cardenas Pilco Patricia       | Scrum Master                 |
+| Leandro Barrientos Delinger   | Front/Back-End Developer     |
